@@ -1,0 +1,26 @@
+{
+  "name": "odonto-farmacs-auth-service",
+  "version": "0.0.1",
+  "description": "Odonto Farmacs Auth Service",
+  "main": "src/startup.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "npm run dev"
+  },
+  "keywords": [],
+  "author": "Paola Brambila & Renato Lucas Chitolina",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  },
+  "dependencies": {
+    "@cloudant/cloudant": "^2.2.0",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "nano": "^6.4.4"
+  }
+}
